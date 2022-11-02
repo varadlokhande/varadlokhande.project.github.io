@@ -763,6 +763,15 @@ p {
         margin-left: 6px;
     }
 
+    .contact h1 {
+        font-size: 4rem;
+        font-weight: 300;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 28px;
+        color: crimson;
+    }
 
 
 }
@@ -776,6 +785,18 @@ p {
         padding: 0px;
         margin-left: 16px;
     }
+
+    .contact h1 {
+        font-size: 4rem;
+        font-weight: 300;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 28px;
+        color: crimson;
+    }
+
+    
 }
 
 
@@ -830,6 +851,15 @@ p {
         width: 119%;
     }
 
+    .contact h1 {
+        font-size: 4rem;
+        font-weight: 300;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 28px;
+        color: crimson;
+    }
 
 
     @media only screen and (min-width: 360px) {
@@ -846,6 +876,16 @@ p {
             width: 100%;
             margin-left: 70px;
         }
+
+        .contact h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            letter-spacing: .2rem;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 28px;
+            color: crimson;
+        }
     }
 
 
@@ -858,6 +898,17 @@ p {
         .contact {
             padding: 0px;
         }
+
+
+        .contact h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            letter-spacing: .2rem;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 28px;
+            color: crimson;
+        }
     }
 
 
@@ -865,11 +916,29 @@ p {
         .skill {
             width: 370px;
         }
+        .contact h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            letter-spacing: .2rem;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 28px;
+            color: crimson;
+        }
     }
 
     @media only screen and (min-width: 415px) {
         .skill {
             width: 391px;
+        }
+        .contact h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            letter-spacing: .2rem;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 28px;
+            color: crimson;
         }
     }
 
