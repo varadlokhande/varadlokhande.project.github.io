@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+
+</head>
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(51, 51, 51);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .brand h1 {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .brand h1 span {
+        color: crimson;
+    }
+
+
+    /* ############### Utility Classes ########## */
+
+    .container {
+        max-width: 1350px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    /* ############### Header########## */
+
+    .header {
+        position: fixed;
+        min-height: 8vh;
+        top: 0%;
+        width: 100%;
+        background-color: rgb(31, 30, 30);
+        color: white;
+        font-size: 1.8rem;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.705);
+    }
+
+    .navbar {
+        padding: 10px 0 40px 0;
+
+    }
+
+    .header .navbar .logo {
+        float: left;
+        color: white;
+        font-size: 1.3rem;
+        margin-left: 100px;
+
+    }
+
+    .header .logo h1 span {
+        color: crimson;
+
+    }
+
+    .header .navbar .nav-items {
+        float: right;
+    }
+
+
+    .header .navbar .nav-items li {
+        display: inline-block;
+        padding: 0 15px 5px 15px;
+        font-size: 20px
+    }
+
+    .navbar .nav-items li a {
+        font-weight: 00;
+
+        color: white;
+    }
+
+    .nav-items li a :hover::after {
+        transform: translate(-50%, -50%) scale(1);
+        letter-spacing: initial;
+    }
+
+
+
+    .nav-items li a:hover {
+        color: crimson;
+    }
+
+    /* ################## Portfolio ############  */
+
+
+    .gport {
+        margin-top: 50px;
+    }
+
+
+    .gport img {
+        display: block;
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+
+
+
+    .gport h2 {
+        text-align: center;
+        color: white;
+        padding: 30px 0px 20px 0px;
+    }
+
+    .contact {
+        color: white;
+        margin-top: 30px;
+        background-color: rgb(51, 51, 51);
+        padding: 10px;
+
+    }
+
+    .contact h2 {
+        text-align: center;
+        font-size: 2.1rem;
+        text-transform: uppercase;
+    }
+
+
+    .cnt {
+        margin-top: 10px;
+
+
+    }
+
+    .cnt .t {
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 2px;
+
+    }
+
+    #footer {
+        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    }
+
+
+    #footer .footer {
+        min-height: 200px;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+
+    #footer .brand h1 {
+        font-size: 1.9rem;
+    }
+
+    #footer h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    #footer .social-icon {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-right: 65px;
+    }
+
+    #footer .social-item {
+        height: 50px;
+        width: 73px;
+        margin: 0 5px;
+    }
+
+
+    #footer p {
+        color: white;
+        font-size: .8rem;
+        margin-top: 20px;
+        letter-spacing: .05rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* ##################### Media Quaries #####################  */
+
+
+
+
+
+    @media (max-width: 500px) {
+
+
+
+
+        header .navbar .nav-items {
+            float: right;
+            text-align: center;
+        }
+
+
+        .gport {
+            margin-top: 140px;
+        }
+
+        .gport img {
+            display: block;
+            width: 325px;
+            margin: 0 auto;
+        }
+    }
+
+
+    @media (max-width: 500px) and (max-width:360px) {
+
+
+        /* ############### Header########## */
+
+
+
+
+
+
+
+
+        .header .navbar .logo {
+
+            padding-bottom: 10px;
+            margin-left: 15px;
+            float: none;
+        }
+
+        .navbar .logo h2 {
+            text-align: center;
+        }
+
+
+
+        .header {
+            text-align: center;
+        }
+
+
+        .gport {
+            margin-top: 150px;
+        }
+
+        .gport img {
+
+            width: 325px;
+            margin: 0 auto;
+
+        }
+
+    }
+
+    @media (min-width: 501px) and (max-width: 768px) {
+
+        /* ############### Header########## */
+
+
+        .navbar {
+            padding: 10px 0 10px 0;
+            margin-top: 18px;
+            margin-left: -24px;
+        }
+
+        .header .navbar .logo {
+
+            padding-bottom: 10px;
+            /* float: none; */
+        }
+
+        .navbar .logo h2 {
+            text-align: center;
+        }
+
+        .header .navbar .nav-items {
+            float: none;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+
+
+        .gport {
+            margin-top: 90px;
+        }
+
+        .gport img {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+
+
+
+    }
+
+
+
+    @media (min-width:820px)and  (max-width:912px) {
+
+
+        .navbar {
+    padding: 43px 35px 45px 0;
+}
+
+        .gport img {
+            display: block;
+            width: 700px;
+            margin-top: 25px;
+        }
+
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1><span>V</span>CREATION</h1>
+                    </a>
+                </div>
+
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <li class="nav-item"><a href="#work">Work</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="gport">
+            <div>
+
+
+
+                <img src="./images/graphic1.jpg" alt="">
+            </div>
+
+            <h2>banner</h2>
+            <div>
+                <img src="./images/graphic2.jpg" alt="">
+            </div>
+
+            <div>
+                <img src="./images/graphic3.jpg" alt="">
+            </div>
+            <h2>brochure</h2>
+            <div>
+                <img src="./images/graphic4.jpg" alt="">
+            </div>
+
+            <h2>social media</h2>
+            <div>
+                <img src="./images/graphic5.jpg" alt="">
+            </div>
+            <div>
+                <img src="./images/graphic7.jpg" alt="">
+            </div>
+            <h2>flyer</h2>
+
+            <div>
+                <img src="./images/graphic6.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="contact" class="contact">
+        <div class="container">
+
+            <h2>Contact</h2>
+
+            <div class="cnt">
+                <div class="t">
+                    <b>Name :</b>
+                    <p>Varad lokhande</p>
+                </div>
+                <div class="t">
+                    <b>Contact :</b>
+                    <p>8788502560</p>
+                </div>
+                <div class="t">
+                    <b>Email :</b>
+                    <p>varadlokhande307@gmail.com</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>V</span>arad <span>L</span>okhande</h1>
+            </div>
+            <h2>your complete web solution</h2>
+
+            <p>copyright @ 2021 varad all rights reserved</p>
+
+    </section>
+
+
+</body>
