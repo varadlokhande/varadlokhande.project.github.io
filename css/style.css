@@ -671,6 +671,11 @@ p {
 }
 
 .contact h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    text-align: center;
     margin-bottom: 28px;
     color: crimson;
 }
@@ -682,7 +687,7 @@ p {
 }
 
 .cnt .t {
-    font-size: 4rem;
+    font-size: 2.3rem;
     font-weight: 300;
     color: black;
     margin-bottom: 10px;
